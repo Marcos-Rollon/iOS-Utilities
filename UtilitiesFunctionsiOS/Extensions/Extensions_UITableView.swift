@@ -14,7 +14,11 @@ extension UITableView {
     func setEmptyView(message : String){
         let emptyView = UIView()
         
-        let messageLabel = NotesLabel(type: .subtitle, text: message, fontSize: 22, aligment: .center, maxLineNumber: 0)
+        let messageLabel = UILabel()
+        messageLabel.text = message
+        messageLabel.font = UIFont.systemFont(ofSize: 22)
+        messageLabel.textAlignment = .center
+        messageLabel.numberOfLines = 0
 
         emptyView.addSubview(messageLabel)
         messageLabel.center(inView: emptyView)
