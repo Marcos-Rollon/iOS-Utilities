@@ -1,7 +1,10 @@
-### iOS Utilities
+## iOS Utilities
 
 #### What is this?
 This repo contains most of the utilities, extensions and functions of general proupose that I use to be productive in Swift. Most of these are production-tested and I have personally used like 90% then in App Store apps.
+
+#### How do I use it?
+To use any of the utilities just copy and paste the files into your project. I do not recommend to just copy and paste everything thought. Look for what you **need** , ideally take some time to understand why that code works, and use just that. If you find yourself needing something else, just come back and look for it.
 
 #### Did you make all of this?
 Althrought I have written most of the code here, I have also taken some form other open source projects. Every snippet of code has their original credentials, but I want to mention two repos in particular:
